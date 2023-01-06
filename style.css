@@ -45,7 +45,7 @@ p {
 /* button */
 .btn-primary {
     margin-top: 30px;
-    width: 160px;
+    padding: 16px 20px;
     height: 56px;
     background: #FF5959;
     border-radius: 5px;
@@ -53,6 +53,7 @@ p {
     color: white;
     font-weight: 600;
     font-size: 20px;
+
 }
 
 
@@ -85,7 +86,8 @@ section .first-p {
 .amount-of-taka {
     display: flex;
     gap: 22px;
-    padding: 50px 350px;
+    padding: 50px 0;
+    justify-content: center;
 
 }
 
@@ -103,7 +105,7 @@ section .first-p {
     background-color: #f5b7b7;
 }
 
-input {
+.input {
     color: #B3B3B3;
     font-family: 'Poppins' !important;
     font-weight: 400;
@@ -149,4 +151,116 @@ input::-webkit-inner-spin-button {
 
 .Our-Donate-Plan .donate-plan .plan .plan-title {
     margin-top: 32px;
+}
+
+/* Contribute-style */
+.Contribute-style {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+}
+
+.how-to-contribute .Contribute-style p,
+h3 {
+    color: #707070;
+    margin-bottom: 30px;
+
+}
+
+.Contribute-style img {
+    width: 456px;
+    height: 477px;
+    margin-top: 130px;
+
+}
+
+.contribute-description {
+    text-align: left;
+    width: 500px;
+    margin-top: 150px;
+}
+
+/* update */
+
+
+
+
+.updates {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.updates h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+
+.updates p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+
+}
+
+/* form */
+.form {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #FFF4D6;
+    width: 809px;
+    height: 200px;
+}
+
+form input[type='email'] {
+    width: 432px;
+    height: 50px;
+    border-radius: 5px 0px 0px 5px;
+    border-style: none;
+    background: #D9D9D9;
+    padding-left: 15px;
+    margin-top: 75px;
+
+}
+
+form input[type='submit'] {
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    width: 157px;
+    border-style: none;
+    height: 50px;
+
+
+}
+
+/* footer */
+
+.footer {
+    margin-top: 130px;
+    background: #0B0D17;
+    display: block;
+    text-align: center;
+
+}
+
+.footer h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    padding-top: 45px;
+}
+
+.footer p {
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 42px;
 }
