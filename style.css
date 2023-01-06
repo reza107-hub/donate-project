@@ -1,0 +1,121 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* heaser */
+.header {
+    background-image: url('images/donation13.jpg');
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+}
+
+.header .header-title {
+    padding-top: 170px;
+}
+
+.header h1,
+p {
+    color: #FFFFFF;
+}
+
+.header p {
+
+
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.header .first-p {
+    padding-top: 20px;
+}
+
+/* button */
+.btn-primary {
+    margin-top: 30px;
+    width: 160px;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* Section Title */
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+
+}
+
+/* Donate-today section */
+.Donate-today {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.Donate-today p {
+    color: #707070;
+}
+
+.Donate-today .first-p {
+    padding-top: 20px;
+}
+
+.amount-of-taka {
+    display: flex;
+    gap: 22px;
+    padding: 50px 350px;
+
+}
+
+.amount-of-taka .taka {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #707070;
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 40px 22px;
+}
+
+.taka:hover {
+    background-color: #f5b7b7;
+}
+
+input {
+    color: #B3B3B3;
+    font-family: 'Poppins'!important;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    height: 40px;
+    width: 700px;
+    outline: 0;
+    border-width: 0 0 1px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
